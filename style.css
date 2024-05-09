@@ -1,0 +1,47 @@
+:root{ --white: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    }
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        background-color: var(--Lightgray);
+
+    }
+    main{
+        background-color: var(--white);
+        width: 320px;
+        border-radius: 15px;
+    }
+    picture{
+        margin: 10px;
+    }
+    picture img{
+        margin-top: 10px;
+    }
+    
+    .Improve{
+        padding: 10px;
+    }
+    .Improve h3{
+        font-size: 1.5rem;
+        color: var(--Darkblue);
+        line-height: 1.5rem;
+    }
+    .Improve p{
+        color: var(--Grayishblue);
+    }
+    .attribution{
+        padding: 10px;
+        font-size: 13px;
+    }
+    
